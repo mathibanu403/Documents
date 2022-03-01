@@ -1,0 +1,26 @@
+#horizontal{
+    width: 700px;
+    height: 150px;
+    background-color: red;
+}
+
+#horizontal ul li{
+    list-style-type:none;
+    display: inline;
+    padding-left: 100px;
+}
+a{
+    text-decoration: none;
+} 
+  #vertical{
+    width: 100px;
+    height:500px;;
+    background-color: green;
+}
+    #vertical ul li{
+    list-style-type: none;
+    padding-top: 100px;
+    }
+    a{
+        text-decoration: none;
+    } 

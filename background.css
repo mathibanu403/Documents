@@ -1,0 +1,28 @@
+html{
+    background-color: red;
+}
+body{
+    height:1500px;
+    width: 1500px;
+    /* background-color: blue; */
+    background-image: url(Pictures/riyabanu.jpg); 
+   background-repeat:no-repeat;
+}
+
+     /* p{  text-align: left;  
+    letter-spacing: 5px;
+    line-height: 20px;
+    text-indent: 100px;
+    text-transform: capitalize;
+    text-decoration-line:underline;
+  }  */
+     p{ 
+         font-size: 20px;
+        font-family: itallic;
+          font-weight: bold;
+        font-variant:small-caps;
+
+
+     } 
+    
+ 

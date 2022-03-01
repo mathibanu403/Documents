@@ -1,0 +1,21 @@
+html{
+    background-color: bisque;
+}
+body{
+    background-color:brown;
+    width:800px;
+     height:800px;}
+div{
+    background-color: blue;
+    width: 200px;
+    height: 200px;
+    text-align: left;
+    text-decoration: underline;
+    padding:50px;
+    text-transform:uppercase;
+    border: 2px;
+    text-indent: 50px;
+    display: inline-block;
+    box-sizing: border-box;
+    box-sizing: content-box;
+}

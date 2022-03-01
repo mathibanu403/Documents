@@ -1,0 +1,42 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>flexbox</title>
+     <link rel="stylesheet" href="flexbox.css">
+     <style>
+         .flex-container{
+             display: flex;
+             background-color:blue;
+             flex-direction: row;
+             flex-wrap:nowrap;
+              justify-content:space-around;
+             align-items:flex-start;
+             align-content: center;
+         }
+        .flex-container>div{
+             background-color:green;
+             margin: 10px;
+             padding: 20px;
+             font-size:40px;
+             flex-grow:20px;
+             flex-shrink:10px;
+             flex-basis: 200px;
+             align-self: center;}              
+     </style>
+ </head>
+ <body>
+     <h1> The child elements property</h1>
+     <div class=" flex-container">
+         <div style="order:1">1</div>
+         <div style="order:2">2</div>
+         <div style="order:3">3</div>
+         <div style="order:4">4</div>
+         <div style="order:5">5</div>
+         <div style="order:6">6</div>
+     </div>
+     <p>A Flexible layout must have a parent element with the <em>display</em></p>
+    </body>
+ </html>

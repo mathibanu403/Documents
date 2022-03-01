@@ -1,0 +1,8 @@
+table{ 
+    border:2px solid=red;
+}
+tr,td,th{
+     border: 2px solid green;
+    text-align: center;
+    background-color: blue;
+}

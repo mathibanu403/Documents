@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>project2</title>
+    <link rel="stylesheet" href="project2.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Serif:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+</head>
+<body>
+  <div class="container">
+           <div class="navbar">
+               <div class="logo">
+                   <img src="Redstore.img/images/logo.png" width="125px">
+               </div>
+               <nav>
+               <ul id="menuitems">
+                   <li><a href="#">HOME</a></li>
+                   <li><a href="#">PRODUCTS</a></li>
+                   <li><a href="#">ABOUT</a></li>
+                   <li><a href="#">CONTACT</a></li>
+                   <li><a href="#">ACCOUNT</a></li>
+               </ul>
+               </nav>
+               <img src="Redstore.img/images/cart.png" width="30px"  height="30px">
+               <img src="Redstore.img/images/menu.png" class="menu-icon"
+                onclick="menutoggle()">
+           </div>
+         </div>
+   <div class="small-container">
+             <div class="row row-2">
+                <h2>All products</h2>
+                <select>
+                   <option>Default Shorting </option>
+                   <option>Short by price</option>
+                   <option>Short by popularity</option>
+                   <option>Short by rating</option>
+                   <option>Short by sale</option>
+                </select>
+             </div>
+             <div class="row">
+             <div class="col-4">
+                  <img src="Redstore.img/images/product-1.jpg">
+                  <h4> Red printed T-shirt</h4>
+                      <div class="rating">
+                         <i class="fa fa-star"></i>
+                         <i class="fa fa-star"></i>
+                         <i class="fa fa-star"></i>
+                         <i class="fa fa-star"></i>
+                         <i class="fa fa-star-o"></i>
+                       </div>
+                  <p> $50.00</p>
+                </div>
+                <div class="col-4">
+                 <img src="Redstore.img/images/product-2.jpg">
+                 <h4> Red printed T-shirt</h4>
+                     <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                      </div>
+                 <p> $50.00</p>
+               </div>
+               <div class="col-4">
+                <img src="Redstore.img/images/product-3.jpg">
+                  <h4> Red printed T-shirt</h4>
+                    <div class="rating">
+                       <i class="fa fa-star"></i>
+                       <i class="fa fa-star"></i>
+                       <i class="fa fa-star"></i>
+                       <i class="fa fa-star"></i>
+                       <i class="fa fa-star-half-o"></i>
+                     </div>
+                <p> $50.00</p>
+              </div>
+              <div class="col-4">
+                <img src="Redstore.img/images/product-4.jpg">
+                  <h4> Red printed T-shirt</h4>
+                    <div class="rating">
+                       <i class="fa fa-star"></i>
+                       <i class="fa fa-star"></i>
+                       <i class="fa fa-star"></i>
+                       <i class="fa fa-star"></i>
+                       <i class="fa fa-star-o"></i>
+                     </div>
+                <p> $50.00</p>
+              </div>
+               <div class="row">
+                <div class="col-4">
+                  <img src="Redstore.img/images/product-5.jpg">
+                  <h4> Red printed T-shirt</h4>
+                      <div class="rating">
+                         <i class="fa fa-star"></i>
+                         <i class="fa fa-star"></i>
+                         <i class="fa fa-star"></i>
+                         <i class="fa fa-star"></i>
+                         <i class="fa fa-star-o"></i>
+                       </div>
+                  <p> $50.00</p>
+                </div>
+                <div class="col-4">
+                 <img src="Redstore.img/images/product-6.jpg">
+                 <h4> Red printed T-shirt</h4>
+                     <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                      </div>
+                 <p> $50.00</p>
+               </div>
+               <div class="col-4">
+                  <img src="Redstore.img/images/product-7.jpg">
+                  <h4> Red printed T-shirt</h4>
+                      <div class="rating">
+                         <i class="fa fa-star"></i>
+                         <i class="fa fa-star"></i>
+                         <i class="fa fa-star"></i>
+                         <i class="fa fa-star"></i>
+                         <i class="fa fa-star-o"></i>
+                       </div>
+                  <p> $50.00</p>
+                </div>
+                <div class="col-4">
+                 <img src="Redstore.img/images/product-8.jpg">
+                 <h4> Red printed T-shirt</h4>
+                     <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                      </div>
+                 <p> $50.00</p>
+               </div>
+           <div class="col-4">
+                  <img src="Redstore.img/images/product-9.jpg">
+                  <h4> Red printed T-shirt</h4>
+                      <div class="rating">
+                         <i class="fa fa-star"></i>
+                         <i class="fa fa-star"></i>
+                         <i class="fa fa-star"></i>
+                         <i class="fa fa-star"></i>
+                         <i class="fa fa-star-o"></i>
+                       </div>
+                  <p> $50.00</p>
+                </div>
+                <div class="col-4">
+                 <img src="Redstore.img/images/product-10.jpg">
+                 <h4> Red printed T-shirt</h4>
+                     <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                      </div>
+                 <p> $50.00</p>
+               </div>
+              <div class="col-4">
+                <img src="Redstore.img/images/product-11.jpg">
+                <h4> Red printed T-shirt</h4>
+                    <div class="rating">
+                       <i class="fa fa-star"></i>
+                       <i class="fa fa-star"></i>
+                       <i class="fa fa-star"></i>
+                       <i class="fa fa-star"></i>
+                       <i class="fa fa-star-o"></i>
+                     </div>
+                <p> $50.00</p>
+              </div>
+              <div class="col-4">
+                <img src="Redstore.img/images/product-12.jpg">
+                <h4> Red printed T-shirt</h4>
+                    <div class="rating">
+                       <i class="fa fa-star"></i>
+                       <i class="fa fa-star"></i>
+                       <i class="fa fa-star"></i>
+                       <i class="fa fa-star"></i>
+                       <i class="fa fa-star-o"></i>
+                     </div>
+                <p> $50.00</p>
+              </div>
+           </div>
+     <div class="page-btn">
+           <span>1</span>
+            <span>2</span>
+            <span>3</span>
+            <span>4</span>
+            <span>&#10132;</span>
+         </div>
+       </div>
+          <!-- footer -->
+       <div class="footer">
+        <div class="container">
+          <div class="row">
+            <div class="footer-col-1">
+              <h2>Download our App</h2>
+              <p> Download App for Android and ios mobile phone.</p>
+              <div class="app-logo">
+                <img src="Redstore.img/images/play-store.png">
+                <img src="Redstore.img/images/app-store.png">
+              </div>
+            </div>
+            <div class="footer-col-2">
+             <img src="Redstore.img/images/logo.png">
+             <p>Our Purpose Is To Sustainably Make the pleasure 
+               Benifits of Sports Accessible to the Many.</p>
+           </div>
+           <div class="footer-col-3">
+             <h2>Useful links</h2>
+             <ul>
+                 <li>coupons</li>
+                 <li>Blog Post</li>
+                 <li>Return Policy</li>
+                 <li>Join Affiliate</li>
+             </ul>
+           </div>
+           <div class="footer-col-4">
+             <h2>Follow Us</h2>
+             <ul>
+                 <li>Facebook</li>
+                 <li>Twitter</li>
+                 <li>Instagram</li>
+                 <li>You tube</li>
+             </ul>
+           </div>
+           </div>
+           <hr>
+           <p class="Copyright">copyright 2020-Easy Tutorials</p>
+        </div>
+        </div>
+        <!-- js for toggle menu -->
+        <script>
+          var menuitems= document.getElementById("menuitems")
+          menuitems.style.maxHeight  = "0px";
+          function menutoggle(){
+             if(menuitems.style.maxHeight =="0px")
+             {
+               menuitems.style.maxHeight = "200px";
+             }
+           else
+           {
+              menuitems.maxHeight = "0px";  
+           } 
+          }
+           </script>
+       </body>
+</html>
+    
+</body>
+</html>

@@ -1,0 +1,42 @@
+html{
+    background-color: blue;
+}
+body{
+    width: 800px;
+    height: 800px;
+    background-color:green;
+    margin: 0 auto;
+    
+}
+#heater{
+    width: 800px;
+    height:100px;
+    background-color:red;
+}
+#navbar{
+    width: 800px;
+    height:50px;
+    background-color:yellow;}
+#content{
+    width: 800px;
+    height: 100px;
+    background-color: brown;
+}
+#leftcontent{
+    width: 200px;
+    height: 500px;
+    background-color: beige;
+    float: left;
+}
+#rightcontent{
+    width: 600px;
+    height: 500px;
+    background-color: aqua;
+    float: right;
+}
+#footer{
+    width: 600px;
+    height: 600px;
+    background-color: green;
+    
+}
